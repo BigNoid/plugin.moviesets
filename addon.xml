@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.moviesets" name="Movie Sets"
+       version="12.0.0" provider-name="Frost|BigNoid">
+  <requires>
+    <import addon="xbmc.python" version="2.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="plugin.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Movie Sets Library and Manager</summary>
+    <description lang="en">Movie Sets Library for skins / skinners and Manager for users</description>
+    <disclaimer lang="en">Comparison of skin features.[CR]http://wiki.xbmc.org/index.php?title=Comparison_of_skin_features</disclaimer>
+    <license>GPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
